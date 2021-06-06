@@ -1,0 +1,31 @@
+﻿@inject lab1.Services.DirectAccess direct
+
+@{
+    ViewBag.Title = "AccessServiceDirectly - Backend1";
+}
+<h1>AccessServiceDirectly</h1>
+
+<b>Rand value first:</b> @direct.a
+<br />
+<b>Rand value second:</b> @direct.b
+<br />
+
+<b>Add:</b>
+<br />
+@direct.sum
+<br />
+
+<b>Sub:</b>
+<br />
+@direct.sub
+<br />
+
+<b>Mult:</b>
+<br />
+@direct.mult
+<br />
+
+<b>Div:</b>
+<br />
+@direct.div
+<br />
